@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
+import ru.rentateam.rttestapp.ui.groups.GroupsFragment;
 import ru.rentateam.rttestapp.ui.menu.combo.ComboFragment;
 import ru.rentateam.rttestapp.ui.menu.drinks.DrinksFragment;
 import ru.rentateam.rttestapp.ui.menu.pizza.PizzaFragment;
@@ -13,7 +14,7 @@ import ru.rentateam.rttestapp.ui.menu.snacks.SnacksFragment;
 public class MenuPagerAdapter extends FragmentStatePagerAdapter {
 
     String[] tabTitles = {"Пицца", "Закуски", "Напитки", "Комбо"};
-    Fragment[] fragments = {PizzaFragment.newInstance(), SnacksFragment.newInstance(), DrinksFragment.newInstance(), ComboFragment.newInstance()};
+    Fragment[] fragments = {PizzaFragment.newInstance(), GroupsFragment.newInstance(), DrinksFragment.newInstance(), ComboFragment.newInstance()};
 
 
     MenuPagerAdapter(FragmentManager fm) {
