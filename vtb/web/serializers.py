@@ -20,3 +20,11 @@ class GroupSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Group
         fields = ("friends", "name", "description", "background_id")
+
+
+class CreateGroupSerializer(serializers.ModelSerializer):
+    friends = serializers.ListField()
+
+    class Meta:
+        model = models.Group
+        fields = ("friends", "name", "description", "background_id")

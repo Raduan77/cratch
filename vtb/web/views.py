@@ -24,18 +24,17 @@ class GroupList(ListAPIView):
         return friend.groups
 
 class CreateGroupAPIView(CreateAPIView):
-    serializer_class = serializers.GroupSerializer
+    serializer_class = serializers.CreateGroupSerializer
 
     def create(self, request):
         serializer = self.get_serializer(data=request.data)
-        print(123)
         serializer.is_valid(raise_exception=True)
         name = serializer.validated_data["name"]
         description = serializer.validated_data["description"]
         background_id = serializer.validated_data["background_id"]
         friends = [
-            get_object_or_404(models.Friend, pk=friend_object["pk"])
-            for friend_object in serializer.validated_data["friends"]
+            get_object_or_404(models.Friend, pk=pk)
+            for pk in serializer.validated_data["friends"]
         ]
         group = models.Group.objects.create(name=name, description=description, background_id=background_id)
         for friend in friends:
