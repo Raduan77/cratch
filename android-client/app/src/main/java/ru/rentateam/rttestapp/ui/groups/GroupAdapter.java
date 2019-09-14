@@ -1,21 +1,17 @@
 package ru.rentateam.rttestapp.ui.groups;
 
-import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
-import de.hdodenhof.circleimageview.CircleImageView;
 import ru.rentateam.rttestapp.R;
 
-public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.MyViewHolder> {
+public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.MyViewHolder> {
     private GroupModel[] mDataset;
 
-    GroupsAdapter(GroupModel[] myDataset) {
+    GroupAdapter(GroupModel[] myDataset) {
         mDataset = myDataset;
     }
 
@@ -25,7 +21,7 @@ public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.MyViewHold
     }
 
     @Override
-    public GroupsAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public GroupAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_group_card, parent, false);
 
@@ -36,9 +32,9 @@ public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.MyViewHold
     public void onBindViewHolder(MyViewHolder holder, int position) {
         holder.title.setText(mDataset[position].title);
         holder.subtitle.setText(mDataset[position].subtitle);
-        holder.large.setImageDrawable(mDataset[position].largeIcon);
-        holder.medium.setImageDrawable(mDataset[position].mediumItem);
-        holder.small.setImageDrawable(mDataset[position].smallItem);
+//        holder.large.setImageDrawable(mDataset[position].largeIcon);
+//        holder.medium.setImageDrawable(mDataset[position].mediumItem);
+//        holder.small.setImageDrawable(mDataset[position].smallItem);
     }
 
     @Override
@@ -48,15 +44,15 @@ public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.MyViewHold
 
     static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView title, subtitle;
-        CircleImageView large, medium,small;
+//        CircleImageView large, medium,small;
 
         MyViewHolder(View v) {
             super(v);
             title = v.findViewById(R.id.group_title);
             subtitle = v.findViewById(R.id.group_subtitle);
-            large = v.findViewById(R.id.profile_image_large);
-            medium = v.findViewById(R.id.profile_image_medium);
-            small = v.findViewById(R.id.profile_image_small);
+//            large = v.findViewById(R.id.profile_image_large);
+//            medium = v.findViewById(R.id.profile_image_medium);
+//            small = v.findViewById(R.id.profile_image_small);
         }
     }
 }

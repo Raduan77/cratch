@@ -1,12 +1,9 @@
-package ru.rentateam.rttestapp.ui.groups;
+package ru.rentateam.rttestapp.ui.checksplitter;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,40 +14,37 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import ru.rentateam.rttestapp.R;
-import ru.rentateam.rttestapp.ui.groupcreator.CreateGroup;
 
-public class GroupsFragment extends Fragment {
+public class CheckSplitterFragment extends Fragment {
 
     private RecyclerView recyclerView;
-    private GroupAdapter mAdapter;
+    private CheckSplitterAdapter mAdapter;
 
-    public static GroupsFragment newInstance() {
-        return new GroupsFragment();
+    public static CheckSplitterFragment newInstance() {
+        return new CheckSplitterFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        List<GroupModel> data = new ArrayList<>();
-        data.add(new GroupModel(getContext()));
-        data.add(new GroupModel(getContext()));
-        data.add(new GroupModel(getContext()));
-        GroupModel[] arr = new GroupModel[data.size()];
+        List<ProductModel> data = new ArrayList<>();
+        data.add(new ProductModel());
+        data.add(new ProductModel());
+        data.add(new ProductModel());
+        ProductModel[] arr = new ProductModel[data.size()];
         data.toArray(arr);
-        mAdapter = new GroupAdapter(arr);
-        return inflater.inflate(R.layout.fragment_groups, container, false);
+        mAdapter = new CheckSplitterAdapter(arr);
+        return inflater.inflate(R.layout.fragment_checksplitter, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        recyclerView = view.findViewById(R.id.groups_list);
+        recyclerView = view.findViewById(R.id.products_list);
         LinearLayoutManager horizontalLayoutManager
                 = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(horizontalLayoutManager);
         recyclerView.setAdapter(mAdapter);
-        FloatingActionButton fab = view.findViewById(R.id.fab_add_group);
-        fab.setOnClickListener(v -> startActivity(new Intent(getContext(), CreateGroup.class)));
     }
 
 }

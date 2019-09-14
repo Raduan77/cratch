@@ -1,4 +1,4 @@
-package ru.rentateam.rttestapp.ui.groups;
+package ru.rentateam.rttestapp.ui.meetups;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,26 +18,28 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import ru.rentateam.rttestapp.R;
 import ru.rentateam.rttestapp.ui.groupcreator.CreateGroup;
+import ru.rentateam.rttestapp.ui.groups.GroupModel;
+import ru.rentateam.rttestapp.ui.groups.GroupAdapter;
 
-public class GroupsFragment extends Fragment {
+public class MeetupsFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private GroupAdapter mAdapter;
 
-    public static GroupsFragment newInstance() {
-        return new GroupsFragment();
+    public static MeetupsFragment newInstance() {
+        return new MeetupsFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        List<GroupModel> data = new ArrayList<>();
-        data.add(new GroupModel(getContext()));
-        data.add(new GroupModel(getContext()));
-        data.add(new GroupModel(getContext()));
-        GroupModel[] arr = new GroupModel[data.size()];
+        List<MeetupModel> data = new ArrayList<>();
+        data.add(new MeetupModel(getContext()));
+        data.add(new MeetupModel(getContext()));
+        data.add(new MeetupModel(getContext()));
+        MeetupModel[] arr = new MeetupModel[data.size()];
         data.toArray(arr);
-        mAdapter = new GroupAdapter(arr);
+        mAdapter = new MeetupAdapter(arr);
         return inflater.inflate(R.layout.fragment_groups, container, false);
     }
 
