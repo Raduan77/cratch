@@ -29,6 +29,8 @@ class Meeting(models.Model):
 class Receipt(models.Model):
     image = models.ImageField()
 
+    meeting = models.OneToOneField(Meeting, on_delete=models.CASCADE, related_name="receipt", blank=True)
+
 class Food(models.Model):
     receipt = models.ForeignKey(Receipt, on_delete=models.CASCADE, related_name="food")
     friends = models.ManyToManyField(Friend, related_name="food")

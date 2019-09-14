@@ -43,5 +43,22 @@ class CreateGroupAPIView(CreateAPIView):
         group.save()
         return Response({}, status=status.HTTP_201_CREATED)
         
+class CreateMeetingAPIVIew(CreateAPIView):
+    serializer_class = serializers.MeetingSerializer
 
-        
+    def create(self, request, pk):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        group = get_object_or_404(models.Group, pk=pk)
+        address = serializer.validated_data['address']
+        time = serializer.validated_data['time']
+        organizer = serializer.validated_data['organizer']
+        meeting = models.Meeting.objects.create(group=group, address=address, time=time, organizer=organizer)
+        return Response({}, status=status.HTTP_201_CREATED)
+
+class MeetingListAPIView(ListAPIView):
+    serializer_class = serializers.MeetingSerializer
+
+    def get_queryset(self, *args, **kwargs):
+        group = get_object_or_404(models.Group, pk=self.kwargs['pk'])
+        return group.meetings

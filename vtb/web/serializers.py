@@ -19,7 +19,7 @@ class GroupSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Group
-        fields = ("friends", "name", "description", "background_id")
+        fields = ("friends", "name", "description", "background_id", "pk")
 
 
 class CreateGroupSerializer(serializers.ModelSerializer):
@@ -28,3 +28,8 @@ class CreateGroupSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Group
         fields = ("friends", "name", "description", "background_id")
+
+class MeetingSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Meeting
+        fields = ("address", "time", "organizer")
