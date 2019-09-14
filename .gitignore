@@ -202,4 +202,5 @@ fabric.properties
 
 venv/
 .vscode/
-
+*.sqlite3
+__pycache__
