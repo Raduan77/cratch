@@ -7,14 +7,15 @@ class Friend(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 
     name = models.CharField(max_length=50)
-    tag = models.CharField(max_length=50)
     bank_account = models.CharField(max_length=25)
 
+    def __str__(self):
+        return f"{self.pk}.{self.name}"
+
 class Group(models.Model):
-    friends = models.ManyToManyField(Friend, related_name="groups")
+    friends = models.ManyToManyField(Friend, related_name="groups", blank=True)
 
     name = models.CharField(max_length=50)
-    uuid = models.CharField(max_length=8)
     description = models.TextField(max_length=100)
     background_id = models.IntegerField()
 
