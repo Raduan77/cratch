@@ -13,6 +13,7 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import ru.rentateam.rttestapp.R;
 import ru.rentateam.rttestapp.ui.menu.pizza.PizzaFragment;
@@ -43,14 +44,13 @@ public class GroupsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = view.findViewById(R.id.groups_list);
+        LinearLayoutManager horizontalLayoutManager
+                = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(horizontalLayoutManager);
         recyclerView.setAdapter(mAdapter);
         FloatingActionButton fab = view.findViewById(R.id.fab_add_group);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getFragmentManager().beginTransaction().replace(R.id.pager, new PizzaFragment()).commit();
-            }
-        });
+        fab.setOnClickListener(v ->
+                getFragmentManager().beginTransaction().replace(R.id.container, new PizzaFragment()).commit());
     }
 
 }
