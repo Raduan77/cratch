@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import ru.rentateam.rttestapp.R;
 import ru.rentateam.rttestapp.ui.basket.BasketFragment;
 import ru.rentateam.rttestapp.ui.contacts.ContactsFragment;
+import ru.rentateam.rttestapp.ui.groups.GroupsFragment;
 import ru.rentateam.rttestapp.ui.menu.MenuFragment;
 import ru.rentateam.rttestapp.ui.profile.ProfileFragment;
 
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     private final FragmentManager fragmentManager = getSupportFragmentManager();
 
-    private Fragment menu = MenuFragment.newInstance();
+    private Fragment menu = GroupsFragment.newInstance();
     private Fragment profile = ProfileFragment.newInstance();
     private Fragment contacts = ContactsFragment.newInstance();
     private Fragment basket = BasketFragment.newInstance();
