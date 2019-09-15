@@ -5,30 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.groupcreator.CreateGroup">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/edit_group_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Group name"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp" />
-
-        <EditText
-            android:id="@+id/edit_group_description"
+        <TextView
+            android:id="@+id/meetup_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
-            android:hint="Description"
-            android:lines="3" />
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/meetup_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -45,19 +60,6 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="100dp" />
-
-        <Button
-            android:id="@+id/group_button_create"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="-70dp"
-            android:layout_marginRight="30dp"
-            android:height="50dp"
-            android:text="create group" />
-
-
+            android:layout_marginBottom="10dp" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
