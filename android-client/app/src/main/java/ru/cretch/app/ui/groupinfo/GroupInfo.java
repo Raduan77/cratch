@@ -1,5 +1,6 @@
 package ru.cretch.app.ui.groupinfo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -7,8 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import ru.cretch.app.R;
-import ru.cretch.app.ui.groupcreator.TeammatesAdapter;
-import ru.cretch.app.ui.groupcreator.TeammatesModel;
+import ru.cretch.app.ui.meetupcreator.MeetupCreator;
+import ru.cretch.app.ui.meetupinfo.MeetupInfo;
 
 public class GroupInfo extends AppCompatActivity {
 
@@ -16,7 +17,8 @@ public class GroupInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_group_info);
-        findViewById(R.id.group_button_meet).setOnClickListener(v -> {}); // open another activity
+        findViewById(R.id.group_button_meet).setOnClickListener(v ->
+                startActivity(new Intent(this, MeetupCreator.class)));
 
         TextView name = findViewById(R.id.group_name);
         TextView description = findViewById(R.id.group_description);

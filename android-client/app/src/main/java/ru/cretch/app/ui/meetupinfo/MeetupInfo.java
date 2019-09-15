@@ -1,4 +1,4 @@
-package ru.rentateam.rttestapp.ui.meetupinfo;
+package ru.cretch.app.ui.meetupinfo;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -6,9 +6,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import ru.rentateam.rttestapp.R;
-import ru.rentateam.rttestapp.ui.groupcreator.TeammatesAdapter;
-import ru.rentateam.rttestapp.ui.groupcreator.TeammatesModel;
+import ru.cretch.app.R;
 
 public class MeetupInfo extends AppCompatActivity {
 
@@ -16,8 +14,6 @@ public class MeetupInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meetup_info);
-        findViewById(R.id.group_button_meet).setOnClickListener(v -> {}); // open another activity
-
         TextView name = findViewById(R.id.meetup_name);
         TextView description = findViewById(R.id.meetup_description);
         TextView place = findViewById(R.id.meetup_place);
