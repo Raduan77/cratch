@@ -56,8 +56,6 @@
             android:layout_marginRight="30dp"
             android:height="50dp"
             android:text="create group" />
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,6 @@ import java.util.List;
 import androidx.recyclerview.widget.RecyclerView;
 import de.hdodenhof.circleimageview.CircleImageView;
 import ru.cretch.app.R;
-import ru.cretch.app.ui.groupcreator.TeammatesModel;
 
 public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyViewHolder> {
 
@@ -37,7 +36,6 @@ public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyVi
     public TeammatesAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_teammates, parent, false);
-
         return new MyViewHolder(v);
     }
 

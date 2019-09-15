@@ -1,5 +1,7 @@
 package ru.cretch.app.ui.meetups;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,11 +9,14 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 import ru.cretch.app.R;
+import ru.cretch.app.ui.meetupinfo.MeetupInfo;
 
 public class MeetupAdapter extends RecyclerView.Adapter<MeetupAdapter.MyViewHolder> {
     private MeetupModel[] mDataset;
+    private Context context;
 
-    MeetupAdapter(MeetupModel[] myDataset) {
+    MeetupAdapter(Context context, MeetupModel[] myDataset) {
+        this.context = context;
         mDataset = myDataset;
     }
 
@@ -25,6 +30,7 @@ public class MeetupAdapter extends RecyclerView.Adapter<MeetupAdapter.MyViewHold
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_meetup_card, parent, false);
 
+        v.setOnClickListener(v1 -> context.startActivity(new Intent(context, MeetupInfo.class)));
         return new MyViewHolder(v);
     }
 

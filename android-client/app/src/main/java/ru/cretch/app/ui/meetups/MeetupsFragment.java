@@ -33,7 +33,7 @@ public class MeetupsFragment extends Fragment {
         data.add(new MeetupModel(getContext()));
         MeetupModel[] arr = new MeetupModel[data.size()];
         data.toArray(arr);
-        mAdapter = new MeetupAdapter(arr);
+        mAdapter = new MeetupAdapter(getContext(), arr);
         return inflater.inflate(R.layout.fragment_users_meetups, container, false);
     }
 
