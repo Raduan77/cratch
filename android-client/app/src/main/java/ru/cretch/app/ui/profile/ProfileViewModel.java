@@ -31,4 +31,8 @@ public class ProfileViewModel extends ViewModel {
             }
         });
     }
+
+    public void login(String username, String password){
+        userRepository.login(username, password);
+    }
 }

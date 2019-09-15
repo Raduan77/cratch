@@ -8,6 +8,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import ru.cretch.app.R;
 
+import ru.cretch.app.ui.groupcreator.TeammatesAdapter;
+import ru.cretch.app.ui.groupcreator.TeammatesModel;
+
 public class MeetupInfo extends AppCompatActivity {
 
     @Override

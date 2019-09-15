@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/BaseStyle.CenterText.HelloText"
+                android:text="🚀\nCratch" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="Введите логин и пароль\nот учетной записи"
+                style="@style/BaseStyle.CenterText.DescriptionText" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/BaseStyle.BaseFormItem"
+                android:layout_margin="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login"
+                    style="@style/BaseStyle.CenterText.InputText"
+
+                    android:singleLine="true"
+                    android:text="test0" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/BaseStyle.BaseFormItem"
+                android:layout_margin="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    style="@style/BaseStyle.CenterText.InputText"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signin"
+                android:text="Войти"
+                style="@style/BaseStyle.CenterText.MainButton"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:background="@color/black54"
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorAccent"/>
+    </RelativeLayout>
+</RelativeLayout>
