@@ -86,8 +86,23 @@ class CreateReceiptAPIVIew(CreateAPIView):
 
         goods = get_goods_from_ticket(receipt.image.path)
 
+        food = []
         for name, price in goods:
             print(name, price)
-            models.Food.objects.create(name=name, receipt=receipt, price=price)
+            food.append(models.Food.objects.create(name=name, receipt=receipt, price=price))
+        return Response(
+            {
+                "foods":[
+            {
+                "name": item.name, "pk": item.pk, "price":item.price
+            } for item in food
+            ]
+        }, status=status.HTTP_201_CREATED
+        )
 
-        return Response({}, status=status.HTTP_201_CREATED)
+class AddFoodAPIView(APIView):
+    def post(self, request, pk):
+        food = get_object_or_404(models.Food, pk=pk)
+        friend = get_object_or_404(models.Friend, user=self.request.user)
+        food.friends.add(friend)
+        return Response({}, status=status.HTTP_202_ACCEPTED)
