@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ru.rentateam.rttestapp">
+    package="ru.cretch.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".App"
+        android:name="ru.cretch.app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,14 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="" />
 
-        <activity android:name=".ui.groupcreator.CreateGroup"></activity>
-        <activity android:name=".ui.groupinfo.GroupInfo"></activity>
+        <service android:name=".data.firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="ru.cretch.app.ui.groupcreator.CreateGroup"></activity>
+        <activity android:name="ru.cretch.app.ui.groupinfo.GroupInfo"></activity>
         <activity
-            android:name=".ui.MainActivity"
+            android:name="ru.cretch.app.ui.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

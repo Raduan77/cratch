@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "560806179754",
+    "firebase_url": "https://cratch-95a1c.firebaseio.com",
+    "project_id": "cratch-95a1c",
+    "storage_bucket": "cratch-95a1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560806179754:android:4d31e0c48f362d1e91b1d3",
+        "android_client_info": {
+          "package_name": "ru.cretch.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560806179754-j8nr2gaqek3qgvlnv0jbrehurd7b09n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNPz3GS8ZPXdK9Ovegd5g92RlxmaW5_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560806179754-j8nr2gaqek3qgvlnv0jbrehurd7b09n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
