@@ -27,6 +27,7 @@
         <activity android:name="ru.cretch.app.ui.groupinfo.GroupInfo"></activity>
         <activity android:name="ru.cretch.app.ui.meetupinfo.MeetupInfo"></activity>
         <activity android:name="ru.cretch.app.ui.meetupcreator.MeetupCreator"></activity>
+        <activity android:name="ru.cretch.app.ui.seecheck.SeeCheckActivity"></activity>
         <activity
             android:name="ru.cretch.app.ui.MainActivity"
             android:label="@string/app_name">

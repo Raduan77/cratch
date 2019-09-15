@@ -10,14 +10,37 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/meetup_name"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="18sp" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/meetup_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="Hookah" />
+
+            <TextView
+                android:id="@+id/meetup_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="WAITING"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/meetup_place"
@@ -27,7 +50,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
             android:text="TextView"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/meetup_time"
@@ -36,7 +59,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:text="TextView" />
 
         <TextView
@@ -47,7 +70,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
             android:text="fasfasfsf"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -55,7 +78,8 @@
             android:text="Teammates"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp" />
+            android:layout_marginRight="30dp"
+            android:textSize="20sp"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/teammates"
@@ -64,6 +88,15 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="60dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginRight="30dp"
+            android:text="Send money" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
