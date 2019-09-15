@@ -1,4 +1,4 @@
-package ru.rentateam.rttestapp.ui.meetupinfo;
+package ru.cretch.app.ui.meetupinfo;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -6,9 +6,10 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import ru.rentateam.rttestapp.R;
-import ru.rentateam.rttestapp.ui.groupcreator.TeammatesAdapter;
-import ru.rentateam.rttestapp.ui.groupcreator.TeammatesModel;
+import ru.cretch.app.R;
+
+import ru.cretch.app.ui.groupcreator.TeammatesAdapter;
+import ru.cretch.app.ui.groupcreator.TeammatesModel;
 
 public class MeetupInfo extends AppCompatActivity {
 

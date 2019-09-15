@@ -7,6 +7,7 @@ import ru.cretch.app.data.local.IPreferencesHelper;
 import ru.cretch.app.data.local.PreferencesHelper;
 import ru.cretch.app.data.remote.ApiClient;
 import ru.cretch.app.data.remote.IApiClient;
+import ru.cretch.app.model.LoginResponse;
 import ru.cretch.app.model.UserInfoResponse;
 
 public class DataManager implements IApiClient, IPreferencesHelper {
@@ -28,6 +29,11 @@ public class DataManager implements IApiClient, IPreferencesHelper {
     @Override
     public String getSessId() {
         return preferencesHelper.getSessId();
+    }
+
+    @Override
+    public Call<LoginResponse> login(String username, String password) {
+        return apiClient.login(username, password);
     }
 
     @Override

@@ -14,6 +14,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import ru.cretch.app.model.Error;
+import ru.cretch.app.model.LoginResponse;
 import ru.cretch.app.model.User;
 import ru.cretch.app.model.UserInfoResponse;
 
@@ -91,6 +92,41 @@ public class UserRepository {
 
             @Override
             public void onFailure(@NonNull Call<UserInfoResponse> call, @NonNull Throwable t) {
+                t.printStackTrace();
+                retResult.postValue(connectionError);
+            }
+        });
+
+        return retResult;
+    }
+
+    public MutableLiveData<Result> login(String username, String password){
+
+        final MutableLiveData<Result> retResult = new MutableLiveData<>();
+
+        dataManager.login(username, password).enqueue(new Callback<LoginResponse>() {
+            @Override
+            public void onResponse(@NonNull Call<LoginResponse> call, @NonNull Response<LoginResponse> response) {
+
+                LoginResponse loginResponse = response.body();
+                ResponseBody errorBody = response.errorBody();
+                if (loginResponse!=null){
+                    Result.Success<LoginResponse> result = new Result.Success<>(loginResponse);
+                    retResult.postValue(result);
+                } else if (errorBody!=null) {
+                    Error error = getError(errorBody);
+                    Result resultError = new Result.Error(error.code, error.codeMessage);
+                    retResult.postValue(resultError);
+                } else {
+                    setCurUser(null);
+                    retResult.postValue(incorrectDataError);
+                }
+
+                logResponse(response);
+            }
+
+            @Override
+            public void onFailure(@NonNull Call<LoginResponse> call, @NonNull Throwable t) {
                 t.printStackTrace();
                 retResult.postValue(connectionError);
             }

@@ -17,6 +17,7 @@ import ru.cretch.app.R;
 import ru.cretch.app.ui.checksplitter.CheckSplitterFragment;
 import ru.cretch.app.ui.groups.GroupsFragment;
 import ru.cretch.app.ui.meetups.MeetupsFragment;
+import ru.cretch.app.ui.profile.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     private Fragment menu = GroupsFragment.newInstance();
     private Fragment profile = CheckSplitterFragment.newInstance();
-    private Fragment history = MeetupsFragment.newInstance();
+    private Fragment history = ProfileFragment.newInstance();
 
     private Fragment currentFragment = menu;
     private String currentTag = MENU_TAG;

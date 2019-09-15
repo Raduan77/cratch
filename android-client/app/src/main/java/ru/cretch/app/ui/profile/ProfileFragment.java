@@ -36,6 +36,8 @@ public class ProfileFragment extends Fragment {
         mViewModel = ViewModelProviders.of(this).get(ProfileViewModel.class);
         App.getInstance().getComponent().inject(mViewModel);
 
+        mViewModel.login("test0", "123456FF");
+
         TextView name = view.findViewById(R.id.name);
         assert getContext()!=null;
         String nameText = getContext().getResources().getString(R.string.base_fragment_name, getClass().getSimpleName());

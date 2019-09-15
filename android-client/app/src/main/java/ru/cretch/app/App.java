@@ -36,7 +36,7 @@ public class App extends Application {
 
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("https://backend.lifcar.ru") //Базовая часть адреса
+                .baseUrl("http://ec2-3-122-251-154.eu-central-1.compute.amazonaws.com:8000") //Базовая часть адреса
                 .addConverterFactory(GsonConverterFactory.create()) //Конвертер, необходимый для преобразования JSON'а в объекты
                 .build();
 //        backend
