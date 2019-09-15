@@ -12,7 +12,10 @@ api_urls = [
     path("api/v1/group/<int:pk>/meeting-create", views.CreateMeetingAPIVIew.as_view(), name="meeting-create"),
     path("api/v1/group/<int:pk>/meeting-list", views.MeetingListAPIView.as_view(), name="meeting-list"),
     path("api/v1/meeting/<int:pk>/add-receipt", views.CreateReceiptAPIVIew.as_view(), name="meeting-list"),\
-    path("api/v1/user-info", views.GetUserInfoAPIView.as_view(), name="user-info")
+    path("api/v1/user-info", views.GetUserInfoAPIView.as_view(), name="user-info"),
+    path("api/v1/food/<int:pk>/add", views.AddFoodAPIView.as_view(), name="add-food"),
+    path("api/v1/meeting/<int:pk>/get-split-price", views.GetSplittedPriceAPIView.as_view(), name="split-price"),
+    path("api/v1/friends/all", views.GetAllUsersAPIView.as_view(), name="all-users")
 ]
 
 urlpatterns = api_urls

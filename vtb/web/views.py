@@ -26,6 +26,12 @@ class GetUserInfoAPIView(APIView):
         user = get_object_or_404(models.User, username=username)
         return Response({"username": user.username, "pk": user.pk}, status=status.HTTP_200_OK)
 
+class GetAllUsersAPIView(ListAPIView):
+    serializer_class = serializers.FriendSerializer
+
+    def get_queryset(self):
+        return models.Friend.objects.all()
+
 class GroupList(ListAPIView):
     serializer_class = serializers.GroupSerializer
 
@@ -86,8 +92,40 @@ class CreateReceiptAPIVIew(CreateAPIView):
 
         goods = get_goods_from_ticket(receipt.image.path)
 
+        food = []
         for name, price in goods:
             print(name, price)
-            models.Food.objects.create(name=name, receipt=receipt, price=price)
+            food.append(models.Food.objects.create(name=name, receipt=receipt, price=price))
+        return Response(
+            {
+                "foods":[
+            {
+                "name": item.name, "pk": item.pk, "price":item.price
+            } for item in food
+            ]
+        }, status=status.HTTP_201_CREATED
+        )
 
-        return Response({}, status=status.HTTP_201_CREATED)
+class AddFoodAPIView(APIView):
+    def post(self, request, pk):
+        food = get_object_or_404(models.Food, pk=pk)
+        friend = get_object_or_404(models.Friend, user=self.request.user)
+        food.friends.add(friend)
+        return Response({}, status=status.HTTP_202_ACCEPTED)
+
+class GetSplittedPriceAPIView(APIView):
+    def get(self, request, pk):
+        friend = get_object_or_404(models.Friend, user=self.request.user)
+        meeting = get_object_or_404(models.Meeting, pk=pk)
+        receipt = meeting.receipt
+        dct = {}
+        for food in receipt.food.all():
+            friends = food.friends.all()
+            n = len(friends)
+            splitted_price = food.price / n
+            for friend in friends:
+                if friend not in dct:
+                    dct[friend] = 0
+                dct[friend] += splitted_price
+        return Response({"split_price":dct[friend]}, status=status.HTTP_200_OK)
+
