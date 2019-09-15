@@ -15,6 +15,13 @@ from rest_framework.views import APIView
 
 from . import models, serializers
 
+class GetUserInfoAPIView(APIView):
+
+    def get(self, request):
+        username = request.data.get('username')
+        user = get_object_or_404(models.User, username=username)
+        return Response({"username": user.username, "pk": user.pk}, status=status.HTTP_200_OK)
+
 class GroupList(ListAPIView):
     serializer_class = serializers.GroupSerializer
 
@@ -62,3 +69,14 @@ class MeetingListAPIView(ListAPIView):
     def get_queryset(self, *args, **kwargs):
         group = get_object_or_404(models.Group, pk=self.kwargs['pk'])
         return group.meetings
+
+
+class CreateReceiptAPIVIew(CreateAPIView):
+    serializer_class = serializers.ReceiptSerializer
+
+    def create(self, request, pk):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        meeting = get_object_or_404(models.Meeting, pk=pk)
+        receipt = models.Receipt.objects.create(meeting=meeting, image=serializer.validated_data['image'])
+        return Response({}, status=status.HTTP_201_CREATED)

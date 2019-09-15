@@ -26,6 +26,15 @@ class Meeting(models.Model):
     time = models.DateField()
     organizer = models.IntegerField()
 
+    def is_open():
+        food = self.receipt.food.all()
+        unique = set()
+        for item in food: 
+            for friend in item.friends.all():
+                unique.add(friend)
+        return len(self.group.friends.all()) == len(unique)
+
+
 class Receipt(models.Model):
     image = models.ImageField()
 

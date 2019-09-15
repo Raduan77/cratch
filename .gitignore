@@ -201,6 +201,8 @@ fabric.properties
 # End of https://www.gitignore.io/api/android,androidstudio
 
 venv/
+env/
 .vscode/
 *.sqlite3
 __pycache__
+media/

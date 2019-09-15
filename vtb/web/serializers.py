@@ -33,3 +33,9 @@ class MeetingSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Meeting
         fields = ("address", "time", "organizer")
+
+class ReceiptSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = models.Receipt
+        fields = ("image",)
