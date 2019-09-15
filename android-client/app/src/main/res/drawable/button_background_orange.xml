@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@drawable/shadow_orange" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="6.0dip" />
+            <padding android:top="@dimen/shadowed_button_margin" android:bottom="@dimen/shadowed_button_margin" />
+            <gradient android:startColor="@color/main_gradient_top" android:endColor="@color/main_gradient_bottom" android:angle="-90.0" />
+        </shape>
+    </item>
+</layer-list>

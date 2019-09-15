@@ -1,22 +1,20 @@
 package ru.cretch.app.ui.groups;
 
-import android.content.Context;
-import android.graphics.drawable.Drawable;
-
 import java.util.Random;
 import ru.cretch.app.R;
+import ru.cretch.app.model.Group;
 
 public class GroupModel {
     private static Random rnd = new Random();
     public String title, subtitle;
-    public Drawable largeIcon, mediumItem, smallItem;
+    public Integer largeIcon, mediumItem, smallItem;
 
-    public GroupModel(Context context) {
-        title = "Title";
-        subtitle = "SubTitle";
-        largeIcon = context.getResources().getDrawable(randomImgId());
-        mediumItem = context.getResources().getDrawable(randomImgId());
-        smallItem = context.getResources().getDrawable(randomImgId());
+    public GroupModel(Group group) {
+        this.title = group.name;
+        this.subtitle = group.description;
+        largeIcon = randomImgId();
+        mediumItem = randomImgId();
+        smallItem = randomImgId();
     }
 
     int randomImgId() {

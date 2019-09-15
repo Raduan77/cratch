@@ -17,12 +17,18 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import ru.cretch.app.App;
 import ru.cretch.app.R;
 import ru.cretch.app.ui.groupcreator.CreateGroup;
+import ru.cretch.app.ui.profile.ProfileViewModel;
 
 public class GroupsFragment extends Fragment {
+
+    private GroupsViewModel mViewModel;
 
     private RecyclerView recyclerView;
     private GroupAdapter mAdapter;
@@ -34,19 +40,17 @@ public class GroupsFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        List<GroupModel> data = new ArrayList<>();
-        data.add(new GroupModel(getContext()));
-        data.add(new GroupModel(getContext()));
-        data.add(new GroupModel(getContext()));
-        GroupModel[] arr = new GroupModel[data.size()];
-        data.toArray(arr);
-        mAdapter = new GroupAdapter(getContext(), arr);
+
+        mAdapter = new GroupAdapter(getContext());
         return inflater.inflate(R.layout.fragment_groups, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        mViewModel = ViewModelProviders.of(this).get(GroupsViewModel.class);
+        App.getInstance().getComponent().inject(mViewModel);
 
         FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(instanceIdResult -> {
             String newToken = instanceIdResult.getToken();
@@ -63,6 +67,17 @@ public class GroupsFragment extends Fragment {
         recyclerView.setAdapter(mAdapter);
         FloatingActionButton fab = view.findViewById(R.id.fab_add_group);
         fab.setOnClickListener(v -> startActivity(new Intent(getContext(), CreateGroup.class)));
+
+        mViewModel.getGroupsResult().observe(this, groupsResult -> {
+            if (groupsResult == null)
+                return;
+
+            if (groupsResult.getSuccess()!=null){
+                mAdapter.setDataset(groupsResult.getSuccess().items);
+            }
+        });
+
+        mViewModel.getGroups();
     }
 
 }

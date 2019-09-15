@@ -14,6 +14,9 @@ import ru.cretch.app.R;
 import ru.cretch.app.ui.meetupcreator.MeetupCreator;
 import ru.cretch.app.ui.seecheck.SeeCheckActivity;
 
+import ru.cretch.app.ui.groupcreator.TeammatesAdapter;
+import ru.cretch.app.ui.groupcreator.TeammatesModel;
+
 public class MeetupInfo extends AppCompatActivity {
     public static int status = 0;
     public static final int DONE = 0, GOING = 1, WAITING = 2;
