@@ -37,7 +37,7 @@ public class GroupsFragment extends Fragment {
         data.add(new GroupModel(getContext()));
         GroupModel[] arr = new GroupModel[data.size()];
         data.toArray(arr);
-        mAdapter = new GroupAdapter(arr);
+        mAdapter = new GroupAdapter(getContext(), arr);
         return inflater.inflate(R.layout.fragment_groups, container, false);
     }
 
