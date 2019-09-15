@@ -17,7 +17,9 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
-            android:textSize="18sp" />
+            android:text="fasffas"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/group_description"
@@ -26,7 +28,9 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
-            android:textSize="18sp" />
+            android:fontFamily="sans-serif"
+            android:text="asfasfasfasf"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
