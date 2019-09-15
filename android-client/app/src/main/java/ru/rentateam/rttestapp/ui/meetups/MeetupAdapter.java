@@ -33,6 +33,8 @@ public class MeetupAdapter extends RecyclerView.Adapter<MeetupAdapter.MyViewHold
     public void onBindViewHolder(MyViewHolder holder, int position) {
         holder.title.setText(mDataset[position].title);
         holder.subtitle.setText(mDataset[position].subtitle);
+        holder.time.setText(mDataset[position].time);
+        holder.place.setText(mDataset[position].place);
     }
 
     @Override
@@ -46,7 +48,7 @@ public class MeetupAdapter extends RecyclerView.Adapter<MeetupAdapter.MyViewHold
         MyViewHolder(View v) {
             super(v);
             title = v.findViewById(R.id.meetup_title);
-            subtitle = v.findViewById(R.id.meetup_title);
+            subtitle = v.findViewById(R.id.meetup_subtitle);
             time = v.findViewById(R.id.meetup_time);
             place = v.findViewById(R.id.meetup_place);
         }

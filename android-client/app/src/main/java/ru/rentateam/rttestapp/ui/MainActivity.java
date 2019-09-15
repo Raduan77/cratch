@@ -18,6 +18,8 @@ import ru.rentateam.rttestapp.ui.basket.BasketFragment;
 import ru.rentateam.rttestapp.ui.checksplitter.CheckSplitterFragment;
 import ru.rentateam.rttestapp.ui.contacts.ContactsFragment;
 import ru.rentateam.rttestapp.ui.groups.GroupsFragment;
+import ru.rentateam.rttestapp.ui.meetups.MeetupAdapter;
+import ru.rentateam.rttestapp.ui.meetups.MeetupsFragment;
 import ru.rentateam.rttestapp.ui.menu.MenuFragment;
 import ru.rentateam.rttestapp.ui.profile.ProfileFragment;
 
@@ -26,14 +28,13 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     private static final String TAG = "MainActivity";
     private static final String MENU_TAG = "MENU";
     private static final String PROFILE_TAG = "PROFILE";
-    private static final String CONTACTS_TAG = "CONTACTS";
     private static final String BASKET_TAG = "BASKET";
 
     private final FragmentManager fragmentManager = getSupportFragmentManager();
 
     private Fragment menu = GroupsFragment.newInstance();
-    private Fragment profile = CheckSplitterFragment.newInstance();
-    private Fragment basket = BasketFragment.newInstance();
+    private Fragment history = MeetupsFragment.newInstance();
+    private Fragment profile = MeetupsFragment.newInstance();
 
     private Fragment currentFragment = menu;
     private String currentTag = MENU_TAG;
@@ -50,13 +51,13 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 newFragment = menu;
                 currentTag = MENU_TAG;
                 break;
-            case R.id.navigation_profile:
+            case R.id.navigation_basket:
                 newFragment = profile;
                 currentTag = PROFILE_TAG;
                 break;
-            case R.id.navigation_basket:
+            case R.id.navigation_profile:
             default:
-                newFragment = basket;
+                newFragment = history;
                 currentTag = BASKET_TAG;
                 break;
         }
@@ -95,15 +96,16 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                     currentFragment = menu;
                     currentTag = MENU_TAG;
                     break;
+                case BASKET_TAG:
+                    history = fragment;
+                    currentFragment = history;
+                    currentTag = BASKET_TAG;
+                    break;
+                default:
                 case PROFILE_TAG:
                     profile = fragment;
                     currentFragment = profile;
                     currentTag = PROFILE_TAG;
-                    break;
-                case BASKET_TAG:
-                    basket = fragment;
-                    currentFragment = basket;
-                    currentTag = BASKET_TAG;
                     break;
             }
         }
