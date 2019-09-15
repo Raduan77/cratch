@@ -38,10 +38,10 @@ public class ProfileFragment extends Fragment {
 
         mViewModel.login("test0", "123456FF");
 
-        TextView name = view.findViewById(R.id.name);
-        assert getContext()!=null;
-        String nameText = getContext().getResources().getString(R.string.base_fragment_name, getClass().getSimpleName());
-        name.setText(nameText);
+//        TextView name = view.findViewById(R.id.name);
+//        assert getContext()!=null;
+//        String nameText = getContext().getResources().getString(R.string.base_fragment_name, getClass().getSimpleName());
+//        name.setText(nameText);
 
     }
 }

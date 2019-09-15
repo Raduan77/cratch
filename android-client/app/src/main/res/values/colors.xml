@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#E5AD06</color>
+    <color name="colorHeader">#FFC107</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="delimiter">#e5e5e5</color>
+
+    <color name="labelText">#87000000</color>
+    <color name="valueText">#DD000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="main_gradient_top">#FFFFCA28</color>
+    <color name="main_gradient_bottom">#FFFFB300</color>
+    <color name="errorColor">#F44336</color>
+    <color name="black87">#DD000000</color>
+    <color name="black75">#BF000000</color>
+    <color name="black54">#8A000000</color>
+    <color name="offlineInd">#f44336</color>
+    <color name="hideInd">#757575</color>
+    <color name="freeInd">#66BB6A</color>
+    <color name="bookInd">#f5a623</color>
+    <color name="inspectInd">#50E3C2</color>
+    <color name="driveInd">#007AFF</color>
+    <color name="parkInd">#BD10E0</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
 </resources>
