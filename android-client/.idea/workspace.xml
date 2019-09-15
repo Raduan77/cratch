@@ -9,24 +9,16 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b83928c8-db55-4615-b1ea-686ea6577eef" name="Default Changelist" comment="done login">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsViewModel.java" afterDir="false" />
+    <list default="true" id="ac65c802-2db3-47e8-b025-7334e0305352" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_20_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_20_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/ApiClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/CratchApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/CratchApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/IApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/IApiClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/di/AppComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/di/AppComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -56,14 +48,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="150" column="33" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getUserInfo#0;class#UserRepository#0" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -71,70 +68,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+            <state relative-caret-position="540">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding>
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/di/AppComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsUI.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state relative-caret-position="346">
+              <caret line="35" column="76" lean-forward="true" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+              <folding>
+                <element signature="e#1448#1466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="32" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,14 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsResult.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/ApiClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-              <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -158,17 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/CratchApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/DataManager.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="240">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -179,8 +153,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -192,10 +167,6 @@
       <find>Меню</find>
       <find>title_menu</find>
       <find>bac</find>
-      <find>rentateam</find>
-      <find>ru.rentateam.rttestapp</find>
-      <find>MainActivity</find>
-      <find>LAUNCHER</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\tema\Desktop\HackVTB\cratch\android-client\app</dir>
@@ -205,14 +176,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="feature/architecture" />
+        <entry key="$PROJECT_DIR$/.." value="feature/add_group_activity" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/create/TeammatesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/create/TeammatesModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/checkspliter/CheckSplitterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_checksplitter.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/checksplitter/ProductModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/checksplitter/CheckSplitterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_ckeck_product.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/checksplitter/CheckSplitterAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_grop_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/background1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_background1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/round_shape.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_teammates.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_group_info.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java" />
@@ -223,52 +217,30 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_background2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/cretch/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/firebase/MyFirebaseMessagingService.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/firebase/MyFirebaseMessagingService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/CreateGroup.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetupinfo/MeetupInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/TeammatesModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/MeetupInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Token.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/LoginResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/App.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginResult.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/TeammatesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupcreator/TeammatesModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_meetup_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupcreator/TeammatesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupinfo/GroupInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Friend.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/User.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Group.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/GroupsResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/IApiClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/ApiClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/di/AppComponent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsResult.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/CratchApi.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/DataManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsUI.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupcreator/MeetupCreator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupinfo/TeammatesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_group.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_meetup.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="718" />
-    <option name="height" value="900" />
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,6 +248,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="android-client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/hack/cratch/android-client" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="android-client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/hack/cratch/android-client" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -285,107 +273,18 @@
             </path>
             <path>
               <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="groups" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="app" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="font" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android-client" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -425,42 +324,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="android-client" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="android-client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/hack/cratch/android-client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="android-client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/hack/cratch/android-client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
@@ -468,8 +341,9 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="ru.cretch.app.data.firebase" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tema\Desktop\HackVTB\cratch\android-client\app\src\main\res\layout" />
+      <recent name="C:\Users\tema\Desktop\HackVTB\cratch\android-client\app\src\main\res\drawable" />
     </key>
     <key name="android.template.packageName">
       <recent name="ru.rentateam.rttestapp.ui.groups.add" />
@@ -477,22 +351,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.rentateam.rttestapp.ui" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="C:\Users\tema\Desktop\HackVTB\cratch\android-client\app\src\main\res\drawable" />
-      <recent name="C:\Users\tema\Desktop\HackVTB\cratch\android-client\app\src\main\res\layout" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.cretch.app.ui.groups" />
-      <recent name="ru.cretch.app.ui.login" />
-      <recent name="ru.cretch.app.model" />
+      <recent name="ru.cretch.app.ui.meetupcreator" />
+      <recent name="ru.cretch.app.ui.meetupinfo" />
+      <recent name="ru.rentateam.rttestapp.ui.meetupinfo" />
       <recent name="ru.rentateam.rttestapp.ui.groupinfo" />
       <recent name="ru.rentateam.rttestapp.ui.meetups" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -574,27 +438,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b83928c8-db55-4615-b1ea-686ea6577eef" name="Default Changelist" comment="" />
+      <changelist id="ac65c802-2db3-47e8-b025-7334e0305352" name="Default Changelist" comment="" />
       <created>1568465863000</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568465863000</updated>
     </task>
-    <task id="LOCAL-00001" summary="firebase cm">
-      <created>1568521631664</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1568521631665</updated>
-    </task>
-    <task id="LOCAL-00002" summary="done login">
-      <created>1568531172474</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1568531172476</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -602,151 +451,105 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4973545" visible="true" weight="0.23319027" />
-      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4973545" visible="true" weight="0.23319027" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.5026455" side_tool="true" weight="0.32955465" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
-      <window_info id="simpleUML" order="8" />
-      <window_info id="Favorites" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49713877" weight="0.4120482" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Android Profiler" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32771084" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="4" sideWeight="0.49642345" visible="true" weight="0.23493975" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.23493975" />
-      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49785408" weight="0.32891566" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.4985694" weight="0.32771084" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="simpleUML" order="9" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49716598" weight="0.3285968" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49959514" weight="0.46181172" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.41773963" side_tool="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.5822604" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Viewer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.20386267" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Assistant" order="6" weight="0.32955465" />
-      <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="firebase cm" />
-    <MESSAGE value="done login" />
-    <option name="LAST_COMMIT_MESSAGE" value="done login" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java</url>
-          <line>24</line>
-          <properties class="ru.cretch.app.ui.login.LoginViewModel" method="login" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java</url>
-          <line>115</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginActivity.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginActivity.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginActivity.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4973545" visible="true" weight="0.32955465" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Build Variants" order="5" sideWeight="0.5026455" side_tool="true" weight="0.32955465" />
+      <window_info id="simpleUML" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info id="Captures" order="9" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49959514" weight="0.46181172" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50040483" side_tool="true" weight="0.46181172" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Viewer" order="7" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupinfo/TeammatesAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="47" column="65" selection-start-line="45" selection-start-column="57" selection-end-line="47" selection-end-column="65" />
+        <state relative-caret-position="252">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/App.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#232#253#0" expanded="true" />
+            <element signature="e#388#411#0" expanded="true" />
+            <element signature="e#549#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfoFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/pizza/PizzaFragment.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -772,11 +575,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="97">
+          <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesModel.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfo.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/CreateGroup.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetupinfo/MeetupInfo.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_group_info.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/Tesssst.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetups/MeetupsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1152" column="16" selection-start-line="1152" selection-start-column="16" selection-end-line="1152" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/MeetupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/TeammatesModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/TeammatesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_meetup_info.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupcreator/TeammatesModel.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupcreator/TeammatesAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupinfo/GroupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupcreator/TeammatesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupinfo/TeammatesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groupcreator/CreateGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_group.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupcreator/MeetupCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_meetup.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -785,234 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/google-services.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/firebase/MyFirebaseMessagingService1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/firebase/MyFirebaseMessagingService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-          <folding>
-            <element signature="e#37#473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/meetupinfo/MeetupInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/LoginResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background_button.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_background_gray.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/di/DataModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="90" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/login/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/GroupsResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/model/Friend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/ApiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/IApiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="540">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1021,101 +742,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="32" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsViewModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/profile/ProfileFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/di/AppComponent.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/ApiClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="150" column="33" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getUserInfo#0;class#UserRepository#0" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/remote/CratchApi.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/data/DataManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/cretch/app/ui/groups/GroupsUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="346">
+          <caret line="35" column="76" lean-forward="true" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1448#1466#0" expanded="true" />
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
   </component>
 </project>
