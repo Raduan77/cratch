@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import ru.cretch.app.R;
+import ru.cretch.app.ui.groupinfo.GroupInfo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class CreateGroup extends AppCompatActivity {
@@ -13,7 +15,9 @@ public class CreateGroup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_group);
-        findViewById(R.id.group_button_create).setOnClickListener(v -> {}); // open another activity
+        findViewById(R.id.group_button_create).setOnClickListener(v -> {
+            startActivity(new Intent(this, GroupInfo.class));
+        });
 
         RecyclerView recyclerView = findViewById(R.id.teammates);
         LinearLayoutManager horizontalLayoutManager
