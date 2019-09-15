@@ -6,7 +6,7 @@ import argparse
 import os
 import time
 
-from AbbyyOnlineSdk import *
+from utils.AbbyyOnlineSdk import *
 
 
 class Processor:
@@ -24,12 +24,12 @@ class Processor:
 		# Proxy settings
 		if "http_proxy" in os.environ:
 			proxy_string = os.environ["http_proxy"]
-			print("Using http proxy at {}".format(proxy_string))
+			# print("Using http proxy at {}".format(proxy_string))
 			self.processor.Proxies["http"] = proxy_string
 
 		if "https_proxy" in os.environ:
 			proxy_string = os.environ["https_proxy"]
-			print("Using https proxy at {}".format(proxy_string))
+			# print("Using https proxy at {}".format(proxy_string))
 			self.processor.Proxies["https"] = proxy_string
 
 	def recognize_file(self, file_path, language, output_format):

@@ -15,6 +15,10 @@ from rest_framework.views import APIView
 
 from . import models, serializers
 
+
+from utils.parse_ticket import get_goods_from_ticket
+
+
 class GetUserInfoAPIView(APIView):
 
     def get(self, request):
@@ -79,4 +83,11 @@ class CreateReceiptAPIVIew(CreateAPIView):
         serializer.is_valid(raise_exception=True)
         meeting = get_object_or_404(models.Meeting, pk=pk)
         receipt = models.Receipt.objects.create(meeting=meeting, image=serializer.validated_data['image'])
+
+        goods = get_goods_from_ticket(receipt.image.path)
+
+        for name, price in goods:
+            print(name, price)
+            models.Food.objects.create(name=name, receipt=receipt, price=price)
+
         return Response({}, status=status.HTTP_201_CREATED)

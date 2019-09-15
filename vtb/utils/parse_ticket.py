@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 # The above encoding declaration is required and the file must be saved as UTF-8
 
-from Process import *
+# from Process import *
+from utils.Process import *
 
 
 def get_goods_from_ticket(source_file):
