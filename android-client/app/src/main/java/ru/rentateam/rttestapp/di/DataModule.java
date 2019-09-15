@@ -6,8 +6,10 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import ru.rentateam.rttestapp.data.MenuDataSource;
-import ru.rentateam.rttestapp.data.MenuRepository;
+import ru.rentateam.rttestapp.data.DataManager;
+import ru.rentateam.rttestapp.data.UserRepository;
+import ru.rentateam.rttestapp.data.local.PreferencesHelper;
+import ru.rentateam.rttestapp.data.remote.ApiClient;
 
 
 @Module
@@ -16,15 +18,15 @@ public class DataModule {
     @Provides
     @NonNull
     @Singleton
-    public MenuDataSource provideDataManager(){
-        return new MenuDataSource();
+    public DataManager provideDataManager(ApiClient apiClient, PreferencesHelper preferencesHelper){
+        return new DataManager(apiClient, preferencesHelper);
     }
 
     @Provides
     @NonNull
     @Singleton
-    public MenuRepository provideMenuRepository(MenuDataSource menuDataSource){
-        return new MenuRepository(menuDataSource);
+    public UserRepository provideMenuRepository(DataManager dataManager){
+        return new UserRepository(dataManager);
     }
 
 }

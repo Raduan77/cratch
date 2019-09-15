@@ -14,12 +14,8 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import ru.rentateam.rttestapp.R;
-import ru.rentateam.rttestapp.ui.basket.BasketFragment;
 import ru.rentateam.rttestapp.ui.checksplitter.CheckSplitterFragment;
-import ru.rentateam.rttestapp.ui.contacts.ContactsFragment;
 import ru.rentateam.rttestapp.ui.groups.GroupsFragment;
-import ru.rentateam.rttestapp.ui.menu.MenuFragment;
-import ru.rentateam.rttestapp.ui.profile.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -33,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     private Fragment menu = GroupsFragment.newInstance();
     private Fragment profile = CheckSplitterFragment.newInstance();
-    private Fragment basket = BasketFragment.newInstance();
+    private Fragment basket = CheckSplitterFragment.newInstance();
 
     private Fragment currentFragment = menu;
     private String currentTag = MENU_TAG;
