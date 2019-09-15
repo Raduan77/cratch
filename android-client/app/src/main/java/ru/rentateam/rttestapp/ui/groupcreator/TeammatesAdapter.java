@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import androidx.recyclerview.widget.RecyclerView;
+import de.hdodenhof.circleimageview.CircleImageView;
 import ru.rentateam.rttestapp.R;
 
 public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyViewHolder> {
@@ -42,9 +43,9 @@ public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyVi
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         if (position != mDataset.size() - 1) {
-//        holder.image.setImageDrawable(mDataset[position].avatarIcon);
             holder.name.setText(mDataset.get(position).name);
             holder.tag.setText(mDataset.get(position).tag);
+            holder.image.setImageDrawable(mDataset.get(position).avatarIcon);
         } else {
 
         }
@@ -57,13 +58,13 @@ public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyVi
 
     static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView name, tag;
-//        CircleImageView image;
+        CircleImageView image;
 
         MyViewHolder(View v) {
             super(v);
             tag = v.findViewById(R.id.teammates_name);
             name = v.findViewById(R.id.teammates_tag);
-//            image = v.findViewById(R.id.teammates_image);
+            image = v.findViewById(R.id.teammates_image);
         }
     }
 }

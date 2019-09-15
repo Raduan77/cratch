@@ -5,22 +5,25 @@
     android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
-        app:layout_constraintTop_toTopOf="parent"
-        android:orientation="vertical"
         android:id="@+id/groups_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/fab_add_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
         android:clickable="true"
         android:focusable="true"
-        android:src="@drawable/ic_bottom_nav_contacts"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="#ffffff"
+        app:backgroundTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@mipmap/ic_launcher_round" />
 </androidx.constraintlayout.widget.ConstraintLayout>

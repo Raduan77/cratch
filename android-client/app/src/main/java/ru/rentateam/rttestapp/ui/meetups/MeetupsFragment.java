@@ -24,7 +24,7 @@ import ru.rentateam.rttestapp.ui.groups.GroupAdapter;
 public class MeetupsFragment extends Fragment {
 
     private RecyclerView recyclerView;
-    private GroupAdapter mAdapter;
+    private MeetupAdapter mAdapter;
 
     public static MeetupsFragment newInstance() {
         return new MeetupsFragment();

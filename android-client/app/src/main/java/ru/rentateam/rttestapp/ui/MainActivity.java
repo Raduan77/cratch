@@ -31,9 +31,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     private final FragmentManager fragmentManager = getSupportFragmentManager();
 
-    private Fragment menu = CheckSplitterFragment.newInstance();
-    private Fragment profile = ProfileFragment.newInstance();
-    private Fragment contacts = ContactsFragment.newInstance();
+    private Fragment menu = GroupsFragment.newInstance();
+    private Fragment profile = CheckSplitterFragment.newInstance();
     private Fragment basket = BasketFragment.newInstance();
 
     private Fragment currentFragment = menu;
@@ -54,10 +53,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.navigation_profile:
                 newFragment = profile;
                 currentTag = PROFILE_TAG;
-                break;
-            case R.id.navigation_contacts:
-                newFragment = contacts;
-                currentTag = CONTACTS_TAG;
                 break;
             case R.id.navigation_basket:
             default:
@@ -104,11 +99,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                     profile = fragment;
                     currentFragment = profile;
                     currentTag = PROFILE_TAG;
-                    break;
-                case CONTACTS_TAG:
-                    contacts = fragment;
-                    currentFragment = contacts;
-                    currentTag = CONTACTS_TAG;
                     break;
                 case BASKET_TAG:
                     basket = fragment;
