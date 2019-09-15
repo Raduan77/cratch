@@ -2,26 +2,29 @@ package ru.cretch.app.ui.groups;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 import ru.cretch.app.R;
 import ru.cretch.app.ui.groupinfo.GroupInfo;
 
 public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.MyViewHolder> {
-    private GroupModel[] mDataset;
+    private ArrayList<GroupModel> mDataset = new ArrayList<>();
     private Context context;
 
-    GroupAdapter(Context context, GroupModel[] myDataset) {
-        mDataset = myDataset;
+    GroupAdapter(Context context) {
         this.context = context;
     }
 
-    public void setDataset(GroupModel[] mDataset) {
+    public void setDataset(ArrayList<GroupModel> mDataset) {
         this.mDataset = mDataset;
         notifyDataSetChanged();
     }
@@ -37,16 +40,20 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.MyViewHolder
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        holder.title.setText(mDataset[position].title);
-        holder.subtitle.setText(mDataset[position].subtitle);
-        holder.large.setImageDrawable(mDataset[position].largeIcon);
-        holder.medium.setImageDrawable(mDataset[position].mediumItem);
-        holder.small.setImageDrawable(mDataset[position].smallItem);
+        holder.title.setText(mDataset.get(position).title);
+        holder.subtitle.setText(mDataset.get(position).subtitle);
+        holder.large.setImageDrawable(getDrawable(mDataset.get(position).largeIcon));
+        holder.medium.setImageDrawable(getDrawable(mDataset.get(position).mediumItem));
+        holder.small.setImageDrawable(getDrawable(mDataset.get(position).smallItem));
+    }
+
+    private Drawable getDrawable(Integer id){
+        return context.getDrawable(id);
     }
 
     @Override
     public int getItemCount() {
-        return mDataset.length;
+        return mDataset.size();
     }
 
     static class MyViewHolder extends RecyclerView.ViewHolder {

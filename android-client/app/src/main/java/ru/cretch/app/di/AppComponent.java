@@ -4,6 +4,7 @@ package ru.cretch.app.di;
 import javax.inject.Singleton;
 
 import dagger.Component;
+import ru.cretch.app.ui.groups.GroupsViewModel;
 import ru.cretch.app.ui.login.LoginViewModel;
 import ru.cretch.app.ui.profile.ProfileViewModel;
 
@@ -14,4 +15,5 @@ public interface AppComponent {
 
     void inject(ProfileViewModel profileViewModel);
     void inject(LoginViewModel loginViewModel);
+    void inject(GroupsViewModel groupsViewModel);
 }

@@ -1,5 +1,7 @@
 package ru.cretch.app.data;
 
+import java.util.ArrayList;
+
 import javax.inject.Inject;
 
 import retrofit2.Call;
@@ -7,6 +9,7 @@ import ru.cretch.app.data.local.IPreferencesHelper;
 import ru.cretch.app.data.local.PreferencesHelper;
 import ru.cretch.app.data.remote.ApiClient;
 import ru.cretch.app.data.remote.IApiClient;
+import ru.cretch.app.model.Group;
 import ru.cretch.app.model.LoginResponse;
 import ru.cretch.app.model.UserInfoResponse;
 
@@ -39,5 +42,11 @@ public class DataManager implements IApiClient, IPreferencesHelper {
     @Override
     public Call<UserInfoResponse> getUserInfo() {
         return apiClient.getUserInfo();
+    }
+
+    @Override
+    public Call<ArrayList<Group>> getGroups(String token) {
+        String t = "Token " + token;
+        return apiClient.getGroups(t);
     }
 }

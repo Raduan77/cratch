@@ -2,13 +2,15 @@ package ru.cretch.app.model;
 
 import com.google.gson.annotations.Expose;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-
-public class User implements Serializable {
+public class Friend {
 
     @Expose
     public String name;
 
+    @Expose
+    public User user;
+
+    @Expose
+    public Integer pk;
 
 }

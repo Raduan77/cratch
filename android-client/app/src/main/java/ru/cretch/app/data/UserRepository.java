@@ -7,6 +7,8 @@ import androidx.lifecycle.MutableLiveData;
 
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+
 import javax.inject.Inject;
 
 import okhttp3.ResponseBody;
@@ -14,6 +16,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import ru.cretch.app.model.Error;
+import ru.cretch.app.model.Group;
 import ru.cretch.app.model.LoginResponse;
 import ru.cretch.app.model.User;
 import ru.cretch.app.model.UserInfoResponse;
@@ -31,6 +34,7 @@ public class UserRepository {
     private DataManager dataManager;
 
     private MutableLiveData<User> curUser;
+    private String token;
 
     @Inject
     public UserRepository(DataManager dataManager){
@@ -111,6 +115,7 @@ public class UserRepository {
                 LoginResponse loginResponse = response.body();
                 ResponseBody errorBody = response.errorBody();
                 if (loginResponse!=null){
+                    token = loginResponse.token;
                     Result.Success<LoginResponse> result = new Result.Success<>(loginResponse);
                     retResult.postValue(result);
                 } else if (errorBody!=null) {
@@ -127,6 +132,41 @@ public class UserRepository {
 
             @Override
             public void onFailure(@NonNull Call<LoginResponse> call, @NonNull Throwable t) {
+                t.printStackTrace();
+                retResult.postValue(connectionError);
+            }
+        });
+
+        return retResult;
+    }
+
+    public MutableLiveData<Result> getGroups(){
+
+        final MutableLiveData<Result> retResult = new MutableLiveData<>();
+
+        dataManager.getGroups(token).enqueue(new Callback<ArrayList<Group>>() {
+            @Override
+            public void onResponse(@NonNull Call<ArrayList<Group>> call, @NonNull Response<ArrayList<Group>> response) {
+
+                ArrayList<Group> groupsResponse = response.body();
+                ResponseBody errorBody = response.errorBody();
+                if (groupsResponse!=null){
+                    Result.Success<ArrayList<Group>> result = new Result.Success<>(groupsResponse);
+                    retResult.postValue(result);
+                } else if (errorBody!=null) {
+                    Error error = getError(errorBody);
+                    Result resultError = new Result.Error(error.code, error.codeMessage);
+                    retResult.postValue(resultError);
+                } else {
+                    setCurUser(null);
+                    retResult.postValue(incorrectDataError);
+                }
+
+                logResponse(response);
+            }
+
+            @Override
+            public void onFailure(@NonNull Call<ArrayList<Group>> call, @NonNull Throwable t) {
                 t.printStackTrace();
                 retResult.postValue(connectionError);
             }
