@@ -42,7 +42,7 @@ class Receipt(models.Model):
 
 class Food(models.Model):
     receipt = models.ForeignKey(Receipt, on_delete=models.CASCADE, related_name="food")
-    friends = models.ManyToManyField(Friend, related_name="food")
+    friends = models.ManyToManyField(Friend, related_name="food", blank=True)
 
     name = models.CharField(max_length=50)
     price = models.FloatField()
