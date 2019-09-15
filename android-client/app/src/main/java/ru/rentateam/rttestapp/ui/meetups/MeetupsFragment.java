@@ -40,19 +40,16 @@ public class MeetupsFragment extends Fragment {
         MeetupModel[] arr = new MeetupModel[data.size()];
         data.toArray(arr);
         mAdapter = new MeetupAdapter(arr);
-        return inflater.inflate(R.layout.fragment_groups, container, false);
+        return inflater.inflate(R.layout.fragment_users_meetups, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        recyclerView = view.findViewById(R.id.groups_list);
+        recyclerView = view.findViewById(R.id.meetups_list);
         LinearLayoutManager horizontalLayoutManager
                 = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(horizontalLayoutManager);
         recyclerView.setAdapter(mAdapter);
-        FloatingActionButton fab = view.findViewById(R.id.fab_add_group);
-        fab.setOnClickListener(v -> startActivity(new Intent(getContext(), CreateGroup.class)));
     }
-
 }

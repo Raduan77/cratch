@@ -1,5 +1,7 @@
 package ru.rentateam.rttestapp.ui.groups;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,12 +10,15 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 import de.hdodenhof.circleimageview.CircleImageView;
 import ru.rentateam.rttestapp.R;
+import ru.rentateam.rttestapp.ui.groupinfo.GroupInfo;
 
 public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.MyViewHolder> {
     private GroupModel[] mDataset;
+    private Context context;
 
-    GroupAdapter(GroupModel[] myDataset) {
+    GroupAdapter(Context context, GroupModel[] myDataset) {
         mDataset = myDataset;
+        this.context = context;
     }
 
     public void setDataset(GroupModel[] mDataset) {
@@ -26,6 +31,7 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.MyViewHolder
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_group_card, parent, false);
 
+        v.setOnClickListener(v1 -> context.startActivity(new Intent(context, GroupInfo.class)));
         return new MyViewHolder(v);
     }
 

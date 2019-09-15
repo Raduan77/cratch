@@ -1,4 +1,4 @@
-package ru.rentateam.rttestapp.ui.groupcreator;
+package ru.rentateam.rttestapp.ui.groupinfo;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,11 +12,12 @@ import java.util.List;
 import androidx.recyclerview.widget.RecyclerView;
 import de.hdodenhof.circleimageview.CircleImageView;
 import ru.rentateam.rttestapp.R;
+import ru.rentateam.rttestapp.ui.groupcreator.TeammatesModel;
 
 public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyViewHolder> {
 
     List<TeammatesModel> mDataset = new ArrayList<>();
-    public TeammatesAdapter(TeammatesModel[] myDataset) {
+    TeammatesAdapter(TeammatesModel[] myDataset) {
         mDataset = Arrays.asList(myDataset);
     }
 
@@ -42,13 +43,9 @@ public class TeammatesAdapter extends RecyclerView.Adapter<TeammatesAdapter.MyVi
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        if (position != mDataset.size() - 1) {
-            holder.name.setText(mDataset.get(position).name);
-            holder.tag.setText(mDataset.get(position).tag);
-            holder.image.setImageDrawable(mDataset.get(position).avatarIcon);
-        } else {
-
-        }
+        holder.name.setText(mDataset.get(position).name);
+        holder.tag.setText(mDataset.get(position).tag);
+        holder.image.setImageDrawable(mDataset.get(position).avatarIcon);
     }
 
     @Override

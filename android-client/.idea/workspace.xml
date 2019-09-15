@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b83928c8-db55-4615-b1ea-686ea6577eef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_background1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_group_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_background2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_group_info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,18 +23,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_teammates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_teammates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_group_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -57,103 +59,100 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="33" column="57" lean-forward="true" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teammates.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="40" />
-              <folding>
-                <element signature="e#232#253#0" expanded="true" />
-                <element signature="e#388#411#0" expanded="true" />
-                <element signature="e#549#572#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/shape_background2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="48" column="58" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="184">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="47" column="65" selection-start-line="45" selection-start-column="57" selection-end-line="47" selection-end-column="65" />
+              <folding>
+                <element signature="e#1694#1695#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -161,9 +160,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="resourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile_vertical" />
-        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -174,6 +173,7 @@
       <find>GroupModel</find>
       <find>Меню</find>
       <find>title_menu</find>
+      <find>bac</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\tema\Desktop\HackVTB\cratch\android-client\app</dir>
@@ -200,9 +200,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/add/CreateGroup.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_group.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/create/CreateGroup.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/create/TeammatesAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/create/TeammatesModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/checkspliter/CheckSplitterFragment.java" />
@@ -212,34 +210,40 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_ckeck_product.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/checksplitter/CheckSplitterAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_grop_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_group_info.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/background1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_background1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/round_shape.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_teammates.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_group_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_background2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+    <option name="x" value="-11" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -255,6 +259,11 @@
             <path>
               <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
@@ -288,6 +297,14 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="rttestapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="groupinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="rttestapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="groups" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,7 +318,30 @@
             <path>
               <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="rttestapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="rttestapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="pizza" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="android-client" type="1abcf292:AndroidViewProjectNode" />
@@ -321,7 +361,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -339,13 +379,14 @@
       <recent name="ru.rentateam.rttestapp.ui.groups.add" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.rentateam.rttestapp.ui.groupinfo" />
       <recent name="ru.rentateam.rttestapp.ui.meetups" />
       <recent name="ru.rentateam.rttestapp.ui.checksplitter" />
       <recent name="ru.rentateam.rttestapp.ui.checkspliter" />
       <recent name="ru.rentateam.rttestapp.ui.groups.create" />
-      <recent name="ru.rentateam.rttestapp.ui.groups" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tema\Desktop\HackVTB\cratch\android-client\app\src\main\res\drawable" />
       <recent name="C:\Users\tema\Desktop\HackVTB\cratch\android-client\app\src\main\res\layout" />
     </key>
   </component>
@@ -459,7 +500,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50040483" side_tool="true" weight="0.46181172" />
       <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Build" weight="0.3285968" />
       <window_info anchor="right" id="Viewer" side_tool="true" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -469,53 +510,38 @@
       <window_info anchor="right" id="Assistant" weight="0.32955465" />
       <window_info anchor="right" id="Preview" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4973545" visible="true" weight="0.32955465" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Build Variants" order="5" sideWeight="0.5026455" side_tool="true" weight="0.32955465" />
+      <window_info id="simpleUML" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info id="Captures" order="9" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49959514" weight="0.46181172" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50040483" side_tool="true" weight="0.46181172" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Viewer" order="7" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/contacts/ContactsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/pizza/PizzaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/pizza/PizzasResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/pizza/PizzaFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/pizza/PizzaAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/MenuPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -559,14 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="28" selection-start-line="18" selection-start-column="11" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -617,33 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/data/MenuDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -653,37 +648,12 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_drinks.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml">
       <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_group.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="19" selection-start-line="8" selection-start-column="4" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_ckeck_product.xml">
@@ -700,10 +670,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_group_info.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/shape_background1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -718,20 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/CreateGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -742,42 +694,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teammates.xml">
       <provider editor-type-id="text-editor">
@@ -787,28 +709,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -816,15 +716,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/FastPay 1.0(55)(11.07.2019) versionCode(23)-release (1).apk">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teammates_add.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#232#253#0" expanded="true" />
             <element signature="e#388#411#0" expanded="true" />
             <element signature="e#549#572#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_groups.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/CreateGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="66" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_group.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_group_info.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupcreator/TeammatesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/GroupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groupinfo/TeammatesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="47" column="65" selection-start-line="45" selection-start-column="57" selection-end-line="47" selection-end-column="65" />
+          <folding>
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/groups/GroupAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="33" column="57" lean-forward="true" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/menu/pizza/PizzaFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-859">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/rentateam/rttestapp/ui/meetups/MeetupModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_users_meetups.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/shape_background2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_group_card.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_meetup_card.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
