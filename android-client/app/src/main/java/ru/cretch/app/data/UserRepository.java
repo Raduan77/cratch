@@ -175,4 +175,39 @@ public class UserRepository {
         return retResult;
     }
 
+    public MutableLiveData<Result> createGroup(String username, String password, Integer backId, Integer[] array) {
+
+        final MutableLiveData<Result> retResult = new MutableLiveData<>();
+
+        dataManager.createGroup(username, password, backId, array).enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(@NonNull Call<ResponseBody> call, @NonNull Response<ResponseBody> response) {
+
+                ResponseBody groupsResponse = response.body();
+                ResponseBody errorBody = response.errorBody();
+                if (groupsResponse!=null){
+                    Result.Success<ResponseBody> result = new Result.Success<>(groupsResponse);
+                    retResult.postValue(result);
+                } else if (errorBody!=null) {
+                    Error error = getError(errorBody);
+                    Result resultError = new Result.Error(error.code, error.codeMessage);
+                    retResult.postValue(resultError);
+                } else {
+                    setCurUser(null);
+                    retResult.postValue(incorrectDataError);
+                }
+
+                logResponse(response);
+            }
+
+            @Override
+            public void onFailure(@NonNull Call<ResponseBody> call, @NonNull Throwable t) {
+                t.printStackTrace();
+                retResult.postValue(connectionError);
+            }
+        });
+
+        return retResult;
+    }
+
 }

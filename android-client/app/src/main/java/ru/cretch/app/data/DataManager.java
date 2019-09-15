@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import ru.cretch.app.data.local.IPreferencesHelper;
 import ru.cretch.app.data.local.PreferencesHelper;
@@ -48,5 +49,10 @@ public class DataManager implements IApiClient, IPreferencesHelper {
     public Call<ArrayList<Group>> getGroups(String token) {
         String t = "Token " + token;
         return apiClient.getGroups(t);
+    }
+
+    @Override
+    public Call<ResponseBody> createGroup(String username, String password, Integer backId, Integer[] array) {
+        return apiClient.createGroup(username, password, backId, array);
     }
 }

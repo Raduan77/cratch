@@ -20,6 +20,9 @@ public interface CratchApi {
     @POST("/api/v1/token")
     Call<LoginResponse> login(@Field("username") String username, @Field("password") String password);
 
+    @POST("/api/v1/group/create")
+    Call<ResponseBody> createGroup(@Field("name") String username, @Field("description") String password, @Field("background_id") Integer backId, @Field("friends") Integer[] array);
+
     @GET("/api/v1/group/list")
     Call<ArrayList<Group>> getGroups(@Header("Authorization") String token);
 
